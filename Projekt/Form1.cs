@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Emgu;
+using Emgu.CV;
+
 
 namespace Projekt
 {
@@ -19,7 +22,7 @@ namespace Projekt
 
         public void convertRGBtoHSV()
         {
-
+           
         }
     }
 }
