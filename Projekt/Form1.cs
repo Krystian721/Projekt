@@ -16,5 +16,10 @@ namespace Projekt
         {
             InitializeComponent();
         }
+
+        public void convertRGBtoHSV()
+        {
+
+        }
     }
 }
