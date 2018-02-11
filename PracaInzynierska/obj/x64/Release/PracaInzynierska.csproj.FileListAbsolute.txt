@@ -1,0 +1,10 @@
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\MainProject\PracaInzynierska\bin\x64\Release\PracaInzynierska.exe.config
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\MainProject\PracaInzynierska\bin\x64\Release\PracaInzynierska.exe
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\MainProject\PracaInzynierska\bin\x64\Release\PracaInzynierska.pdb
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\MainProject\PracaInzynierska\bin\x64\Release\Emgu.CV.World.dll
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\MainProject\PracaInzynierska\bin\x64\Release\Emgu.CV.World.xml
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\MainProject\PracaInzynierska\obj\x64\Release\PracaInzynierska.Main.resources
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\MainProject\PracaInzynierska\obj\x64\Release\PracaInzynierska.Properties.Resources.resources
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\MainProject\PracaInzynierska\obj\x64\Release\PracaInzynierska.csproj.GenerateResource.Cache
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\MainProject\PracaInzynierska\obj\x64\Release\PracaInzynierska.exe
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\MainProject\PracaInzynierska\obj\x64\Release\PracaInzynierska.pdb
