@@ -1,4 +1,4 @@
-﻿namespace PracaInzynierska
+﻿namespace PrzetwarzanieObrazow
 {
     partial class Main
     {

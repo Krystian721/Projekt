@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace PracaInzynierska
+namespace PrzetwarzanieObrazow
 {
     static class Program
     {

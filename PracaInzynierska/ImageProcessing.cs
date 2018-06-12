@@ -1,4 +1,4 @@
-﻿namespace PracaInzynierska
+﻿namespace PrzetwarzanieObrazow
 {
     #region Usings
     using Emgu.CV;
@@ -9,7 +9,7 @@
     #endregion
     public static class ImageProcessing
     {
-        #region Private Properties
+        #region Fields
         /// <summary>
         /// Source image from camera
         /// </summary>
@@ -194,7 +194,7 @@
 
         #endregion
 
-        #region Public Functions
+        #region Public Methods and Operators
         public static void DetectLaserSpot(Image<Bgr, byte> sourceImg)
         {
             SourceImage = sourceImg;
@@ -206,7 +206,7 @@
         }
         #endregion
 
-        #region Private Functions
+        #region Methods
         /// <summary>
         /// Convert RGB image to HSV
         /// </summary>
@@ -232,7 +232,7 @@
                 for (int j = 0; j < imgInput.Width; j++)
                 {
                     if (maximumValue < imgInput.Data[i, j, 2])
-                        maximumValue = imgInput.Data[i, j, 2];
+                        maximumValue = imgInput.Data[i, j, 2];                    
                 }
             }
             return maximumValue;

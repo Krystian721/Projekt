@@ -1,4 +1,4 @@
-﻿namespace PracaInzynierska
+﻿namespace PrzetwarzanieObrazow
 {
     #region Usings
     using Emgu.CV;
@@ -8,14 +8,14 @@
     #endregion
     public partial class Main : Form
     {
-        #region Private Properties
+        #region Fields
         #endregion
 
         #region Public Properties
         #endregion
         public BackgroundWorker bw = new BackgroundWorker();
 
-        #region Public Functions
+        #region Public Methods and Operators
         /// <summary>
         /// Main function of application
         /// </summary>
@@ -41,9 +41,10 @@
         {
             while (true)
             {
-                string FileName1 = @"C:\\Users\\kryst\\Desktop\\imgYellow.jpg";
-                //string FileName2 = @"C:\\Users\\kryst\\Desktop\\sourceBlackSmall.jpg";
-                ImageProcessing.DetectLaserSpot(new Image<Bgr, byte>(FileName1));
+                //string FileName1 = @"C:\\Users\\kryst\\Desktop\\kaczka.png";
+                string FileName2 = @"C:\Users\kryst\Desktop\night-forest-game-background-2d-260nw-231473788.jpg";
+                Image<Bgr, byte> i = new Image<Bgr, byte>(FileName2);
+                ImageProcessing.DetectLaserSpot(i);
 
                 bw.ReportProgress(0, "");
                 //ImageProcessing.DetectLaserSpot(new Image<Bgr, byte>(FileName1));
@@ -52,7 +53,7 @@
         }
         #endregion
 
-        #region Private Functions
+        #region Methods
         #endregion
     }
 }

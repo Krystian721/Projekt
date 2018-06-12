@@ -1,0 +1,4 @@
+Content\screen.xnb
+Content\duck.xnb
+Content\pointDuck.xnb
+Content\Quartz.xnb

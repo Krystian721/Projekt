@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>screen.png</Source>
+      <Name>screen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\bin\x86\Debug\Content\screen.xnb</Output>
+      <Time>2018-06-11T19:54:43.611546+02:00</Time>
+    </Item>
+    <Item>
+      <Source>duck.png</Source>
+      <Name>duck</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\bin\x86\Debug\Content\duck.xnb</Output>
+      <Time>2018-06-11T19:55:23.314956+02:00</Time>
+    </Item>
+    <Item>
+      <Source>pointDuck.png</Source>
+      <Name>pointDuck</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\bin\x86\Debug\Content\pointDuck.xnb</Output>
+      <Time>2018-06-11T19:55:23.2979298+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Quartz.spritefont</Source>
+      <Name>Quartz</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\bin\x86\Debug\Content\Quartz.xnb</Output>
+      <Time>2018-06-11T19:55:23.3099408+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{CD5EFE9A-AAC0-43EC-A265-6C68EC32ED40}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\KaczkiContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2018-06-10T22:00:58.2453907+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
