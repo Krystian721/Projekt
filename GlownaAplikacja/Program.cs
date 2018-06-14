@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace PrzetwarzanieObrazow
+namespace GlownaAplikacja
 {
     static class Program
     {
@@ -11,6 +11,9 @@ namespace PrzetwarzanieObrazow
         [STAThread]
         static void Main()
         {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainWindow());
         }
     }
 }

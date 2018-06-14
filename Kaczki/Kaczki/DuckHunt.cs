@@ -177,7 +177,7 @@
 
                 if (Target.IsFlying)
                 {
-                    if (Target.Shot == 3)
+                    if (Target.Shot == Target.ShotLimit)
                         AvailablePoints = (Target.DuckRectangle.Y + Target.FrameHeight) * (Target.Shot);
                     else
                         AvailablePoints = (Target.DuckRectangle.Y + Target.FrameHeight) * (Target.Shot + 1);

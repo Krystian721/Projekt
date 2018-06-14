@@ -39,39 +39,44 @@
         private int livesLimit;
         private int timeToGround;
         private int fallSpeed;
+        private int shotLimit;
         #endregion
 
         #region Public Properties
         public Rectangle DuckRectangle { get => duckRectangle; set => duckRectangle = value; }
+        public Rectangle SourceRectangle { get => sourceRectangle; set => sourceRectangle = value; }
+        public SpriteEffects Effects { get => effects; set => effects = value; }
+        public int SpriteWidth { get => spriteWidth; set => spriteWidth = value; }
+        public int SpriteHeight { get => spriteHeight; set => spriteHeight = value; }
+        public int FrameWidth { get => frameWidth; set => frameWidth = value; }
+        public int FrameHeight { get => frameHeight; set => frameHeight = value; }
+        public int ScreenWidth { get => screenWidth; set => screenWidth = value; }
+
+        public int CurrentFrame { get => currentFrame; set => currentFrame = value; }
+        public int FrameCount { get => frameCount; set => frameCount = value; }
         public bool IsFlying { get => isFlying; set => isFlying = value; }
+        public int FlyTime { get => flyTime; set => flyTime = value; }
+        public int Direction { get => direction; set => direction = value; }
+        public int FallTime { get => fallTime; set => fallTime = value; }
+        public int OptimalFlyTimer { get => optimalFlyTimer; set => optimalFlyTimer = value; }
+        public int VerticalSpeed { get => verticalSpeed; set => verticalSpeed = value; }
+        public int HorizontalSpeed { get => horizontalSpeed; set => horizontalSpeed = value; }
+        public int TimeToGround { get => timeToGround; set => timeToGround = value; }
+        public int FallSpeed { get => fallSpeed; set => fallSpeed = value; }
+
         public bool[] IsDead { get => isDead; set => isDead = value; }
         public int Lives { get => lives; set => lives = value; }
         public bool GameEnd { get => gameEnd; set => gameEnd = value; }
         public float Timer { get => timer; set => timer = value; }
         public float Interval { get => interval; set => interval = value; }
-        public int CurrentFrame { get => currentFrame; set => currentFrame = value; }
-        public int FrameCount { get => frameCount; set => frameCount = value; }
-        public int SpriteWidth { get => spriteWidth; set => spriteWidth = value; }
-        public int SpriteHeight { get => spriteHeight; set => spriteHeight = value; }
-        public Rectangle SourceRectangle { get => sourceRectangle; set => sourceRectangle = value; }
-        public SpriteEffects Effects { get => effects; set => effects = value; }
-        public int FlyTime { get => flyTime; set => flyTime = value; }
-        public int Direction { get => direction; set => direction = value; }
-        public int FallTime { get => fallTime; set => fallTime = value; }
-        public Random Rand { get => rand; set => rand = value; }
         public int Shot { get => shot; set => shot = value; }
+        public int LivesLimit { get => livesLimit; set => livesLimit = value; }
+        public int ShotLimit { get => shotLimit; set => shotLimit = value; }
+
+        public Random Rand { get => rand; set => rand = value; }    
         public int MinimumStartingX { get => minimumStartingX; set => minimumStartingX = value; }
         public int MaximumStartingX { get => maximumStartingX; set => maximumStartingX = value; }
         public int StartingY { get => startingY; set => startingY = value; }
-        public int FrameWidth { get => frameWidth; set => frameWidth = value; }
-        public int FrameHeight { get => frameHeight; set => frameHeight = value; }
-        public int ScreenWidth { get => screenWidth; set => screenWidth = value; }
-        public int OptimalFlyTimer { get => optimalFlyTimer; set => optimalFlyTimer = value; }
-        public int VerticalSpeed { get => verticalSpeed; set => verticalSpeed = value; }
-        public int HorizontalSpeed { get => horizontalSpeed; set => horizontalSpeed = value; }
-        public int LivesLimit { get => livesLimit; set => livesLimit = value; }
-        public int TimeToGround { get => timeToGround; set => timeToGround = value; }
-        public int FallSpeed { get => fallSpeed; set => fallSpeed = value; }
         #endregion
 
         #region Constructors and Deconstructors
@@ -89,8 +94,9 @@
             LivesLimit = 20;
             TimeToGround = 50;
             FallSpeed = 5;
+            ShotLimit = 3;
 
-            IsDead = new Boolean[20];
+            IsDead = new Boolean[LivesLimit];
             Rand = new Random();
             DuckRectangle = new Rectangle(Rand.Next(MinimumStartingX, MaximumStartingX), StartingY, FrameWidth, FrameHeight);
             IsFlying = true;
@@ -100,7 +106,7 @@
             FrameCount = 8;
             SpriteWidth = 34;
             SpriteHeight = 31;
-            Shot = 3;
+            Shot = ShotLimit;
         }
         #endregion
 
@@ -155,9 +161,9 @@
                             GameEnd = true;
                             IsFlying = false;
                         }
-                        if (Shot != 3 && !GameEnd)
+                        if (Shot != ShotLimit && !GameEnd)
                         {
-                            Shot = 3;
+                            Shot = ShotLimit;
                         }
                     }
                 }
@@ -185,7 +191,7 @@
                         }
                         if (!GameEnd)
                         {
-                            Shot = 3;
+                            Shot = ShotLimit;
                         }
                     }
 

@@ -18,3 +18,4 @@ C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynier
 C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\bin\x86\Debug\Content\duck.xnb
 C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\bin\x86\Debug\Content\pointDuck.xnb
 C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\bin\x86\Debug\Content\Quartz.xnb
+C:\Users\kryst\Desktop\Studia\Specjalnościowa pracownia dyplomowa\pracaInzynierska\Kaczki\Kaczki\obj\x86\Debug\Kaczki.csprojResolveAssemblyReference.cache
